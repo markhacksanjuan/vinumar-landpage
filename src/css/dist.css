@@ -1,0 +1,51 @@
+/* MARGIN SECTION  */
+.margin-t-60 {
+    margin-top: 60px;
+}
+.margin-t-250 {
+    margin-top: 250px
+}
+.margin-b-28 {
+    margin-bottom: 28px;
+}
+.margin-b-60 {
+    margin-bottom: 60px;
+}
+.margin-b-173 {
+    margin-bottom: 173px
+}
+.margin-b-200 {
+    margin-bottom: 200px
+}
+.margin-b-250 {
+    margin-bottom: 250px
+}
+.margin-b-280 {
+    margin-bottom: 280px
+}
+.margin-b-300 {
+    margin-bottom: 300px
+}
+
+/* PADDING SECTION  */
+.padding-b-60 {
+    padding-bottom: 60px
+}
+.padding-t-15 {
+    padding-top: 15px;
+}
+.padding-t-10 {
+    padding-top: 10px
+}
+
+
+
+/* WIDTH */
+.width-105 {
+    width: 105px;
+}
+
+/* HEIGHT */
+.height-40 {
+    height: 40px;
+}

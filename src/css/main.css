@@ -1,0 +1,305 @@
+@font-face {
+    font-family: 'DiatypeLight';
+    src: url('/src/public/fonts/ABCDiatype-Light.woff') format('woff'),
+        url('/src/public/fonts/ABCDiatype-Light.woff2') format('woff2')
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'DiatypeLight';
+}
+p {
+    margin: 0;
+    font-size: 18px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul > li {
+    width: 430px
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: black
+}
+h3 {
+    margin: 0;
+    font-size: 37px;
+    font-weight: normal;
+}
+h4 {
+    font-size: 37px;
+    width: 100%;
+    margin: 0
+}
+navbar ul li, footer ul li {
+    width: 214px
+}
+input {
+    border: none;
+    font-size: 23px;
+    height: 33px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+label {
+    font-size: 23px;
+    height: 33px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+textarea{
+    background-color: #E7CBCC;
+    border: none;
+    resize: none;
+    font-size: 23px;
+}
+#header-over-home {
+    width: 100%;
+}
+#header-over-home h2 {
+    font-size: 60px;
+    color: #FFF;
+    margin: 0;
+    position: relative;
+    top: 415px;
+    width: 923px;
+    font-weight: bold;
+}
+#img_vinumar {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+#footer_contacto {
+    width: 70%
+}
+#home_section_productos {
+    margin-bottom: 300px;
+}
+#content {
+    width: 1398px;
+    margin: auto
+}
+#donde_estamos {
+    padding-top: 10px;
+}
+#donde_estamos ul {
+    margin: 0
+}
+#donde_estamos h3 {
+    width: 260px;
+}
+#donde_estamos ul {
+    margin-left: 200px;
+}
+#valores h3 {
+    padding: 5px 0 60px 0;
+    font-size: 37px;
+    font-weight: normal;
+}
+#img_donde {
+    height: 600px;
+    object-fit: cover;
+    margin-top: 20px;
+    width: 100%;
+}
+#section_donde {
+    margin-bottom: 207px
+}
+#productos_show p, #sobre_show p {
+    cursor: pointer;
+}
+#contact ul {
+    margin-top: 0
+}
+#contact-1 {
+    margin-left: 250px;
+}
+#contact-2 {
+    margin-left: 50px;
+}
+#contact-3 {
+    margin-left: 50px
+}
+#cronologia-head p{
+    width: 1162px
+}
+.frase {
+    width: 925px;
+    font-size: 37px;
+    color: #A02E33;
+    text-align: center
+}
+.logo_vinu {
+    margin-top: 23px;
+    margin-left: 22px
+}
+.navbar {
+    margin-top: 20px;
+    margin-bottom: 300px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+.navbar li {
+    border-top: 3px solid black;
+    padding-top: 5px;
+}
+.navbar a:hover {
+    color:#A02E33
+}
+.navbar p:hover {
+    color: #A02E33
+}
+.img_valores {
+    width: 200px;
+    object-fit: cover;
+}
+.navbar > li {
+    margin-right: 20px;
+    font-weight: bold;
+}
+.footer {
+    padding: 40px 0;
+    background-color: #E7CBCC;
+    width: 100%
+}
+.footer > ul {
+    padding: 0 15%
+}
+.footer ul li {
+    margin-right: 20px;
+}
+.footer ul ul {
+    margin-top: 10px;
+}
+.footer p {
+    font-weight: bold;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+.footer a:hover {
+    color: #A02E33;
+}
+.hide {
+    display: none;
+}
+.submenu {
+    position: absolute;
+}
+.submenu > li {
+    margin: 0;
+    margin-top: 7px;
+    padding-top: 7px;
+    font-weight: initial;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.block {
+    display: block
+}
+.img_producto {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.home_card_product {
+    margin-bottom: 60px;
+    width: 688px;
+    border-top: 1px solid black;
+    padding-top: 10px
+}
+.home_card_product > div {
+    margin-bottom: 28px;
+    font-size: 20px;
+    height: 93px;
+}
+.product_title {
+    width: 750px;
+}
+.border_top {
+    border-top: 1px solid black
+}
+.border_bottom {
+    border-bottom: 1px solid black
+}
+.header {
+    margin-bottom: 300px
+}
+.section h4 {
+    font-weight: normal;
+    width: auto;
+}
+.section-p {
+    width: 689px;
+}
+.ventaja-card {
+    width: 451px;
+    margin-top: 60px;
+    padding-top: 10px;
+}
+.ventaja-card img {
+    width: 451px;
+    height: 214px;
+    margin-top: 28px;
+}
+.over-img {
+    color: #FFF;
+    position: absolute;
+    top: 621px;
+    font-size: 60px;
+    padding: 0;
+    font-weight: normal;
+    margin: 0;
+}
+.valor {
+    width:214px;
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+.valor img {
+    width: 214px;
+    height: 214px;
+    object-fit: cover;
+    margin-top: 28px;
+}
+.valor-tec {
+    width: 451px;
+    border-top: 1px solid black
+}
+.valor-tec img {
+    width: 451px;
+    height: 214px;
+    object-fit: cover;
+}
+.cita {
+    margin-bottom: 250px;
+    margin-top: 157px
+}
+.cita h2 {
+    font-size: 37px;
+    font-weight: normal;
+    color: #A02E33;
+    margin: 15px auto 0 auto;
+}
+.prod-ind img {
+    width: 688px;
+    height: 300px;
+    object-fit: cover;
+}
+.prod-ind p:first-child {
+    width: 202px;
+}
+.no-border {
+    border: none !important
+}
+

@@ -1,0 +1,103 @@
+#productos_title img {
+    width: 688px;
+    height: 400px;
+    object-fit: cover;
+}
+#productos_title h4 {
+    margin-top: 15px;
+    margin-bottom: 0;
+    width: 688px
+}
+#aplicaciones {
+    padding-top: 10px;
+    font-size: 18px;
+    padding-bottom: 60px
+}
+#aplicaciones > p {
+    margin-right: 132px
+}
+#aplicaciones > ul {
+    margin-top: 0
+}
+#aplicaciones > ul > li {
+    width: 214px;
+    padding-bottom: 7px;
+    padding-top: 10px;
+    border-bottom: 1px solid black
+}
+#aplicaciones > ul >li:first-child {
+    padding-top: 0px !important
+}
+#aplicaciones > div {
+    padding-left: 23px;
+    padding-right: 23px;
+    width: 214px
+}
+#descripcion {
+    margin-top: 15px;
+    margin-bottom: 60px;
+    width: 688px;
+}
+#beneficios {
+    padding-top: 10px;
+    padding-bottom: 60px
+}
+#beneficios > p {
+    padding-left: 23px;
+}
+#beneficios div {
+    margin-left: 151px;
+    width: 451px;
+}
+#productos {
+ margin-bottom: 300px
+}
+#productos h4 {
+    border-top: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    margin: 0;
+    font-weight: normal;
+    font-size: 37px;
+}
+#entorno {
+    padding-top: 10px;
+    margin-bottom: 300px;
+}
+#entorno h4 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 37px;
+}
+#entorno img {
+    margin-top: 28px;
+}
+.productos_card {
+    margin-top: 1px solid black;
+    width: 688px;
+    padding-top: 10px;
+}
+.productos_card img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 28px; 
+}
+.productos_card ul {
+    margin: 0
+}
+.productos_card > div > ul {
+    margin: 0;
+    width: 214px;
+}
+.productos_card > div > ul li {
+    border-bottom: 1px solid black;
+    padding-bottom: 7px;
+    margin-bottom: 10px;
+}
+.productos_card > div > ul li:last-child {
+    border: none
+}
+.productos_card > div > div {
+    width: 430px;
+}

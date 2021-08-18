@@ -1,0 +1,24 @@
+#checkbox {
+    margin-top: 60px;
+}
+#checkbox input {
+    width: 24px;
+}
+#checkbox label {
+    margin-left: 39px;
+}
+#checkbox button {
+    margin-left: 135px;
+    width: 69px;
+    height: 40px;
+    font-size: 18px;
+}
+.contact-card {
+    width: 688px;
+}
+.contact-form {
+    padding-top: 60px;
+}
+.contact-form input {
+    border-bottom: 1px solid black
+}

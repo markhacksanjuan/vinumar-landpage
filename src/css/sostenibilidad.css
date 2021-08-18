@@ -1,0 +1,17 @@
+#sostenibilidad img {
+    width: 687px;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 0
+}
+#sostenibilidad p {
+    width: 687px;
+}
+#sostenibilidad h4 {
+    margin-bottom: 60px
+}
+.sostenibilidad-btn {
+    margin-top: -300px;
+    padding-top: 60px;
+    padding-bottom: 200px;
+}

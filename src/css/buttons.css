@@ -1,0 +1,79 @@
+button {
+    font-size: 18px
+}
+#section_donde button {
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 648px;
+}
+#valores button {
+    height: 40px;
+    padding: 10px 10px 7px 10px;
+    margin: 52px auto 0 auto;
+}
+#donde_estamos button {
+    margin: 60px auto 0 auto;
+    height: 40px;
+}
+#header-over-home button {
+    height: 40px;
+    position: relative;
+    top: 533px
+}
+#productos_title button {
+    margin-bottom: 200px;
+}
+#entorno button {
+    height: 40px;
+    position: relative;
+    bottom: 100px;
+    left: 647px
+}
+.btn-w105 {
+    width: 110px;
+}
+.btn-w197 {
+    width: 205px
+}
+.btn-w251 {
+    width: 251px
+}
+.btn-w162 {
+    width: 162px
+}
+.btn-ver-mas {
+    position: relative;
+    height: 40px;
+    left: 44%;
+    bottom: 20%
+}
+.btn-red {
+    background-color: #A02E33;
+    color: #FFF;
+    font-weight: bold;
+    height: 40px;
+    padding: 10px 10px 7px 10px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-red a {
+    color: #FFF
+}
+.btn-red:hover {
+    background-color: #FFF;
+    color: #A02E33;
+    border: 1px solid #aaa
+}
+.btn-red:active {
+    background-color: #A02E33;
+    color: #FFF;
+}
+.btn-white {
+    background-color: #FFF;
+    font-weight: bold;
+    border-radius: 0;
+}
+.btn-white:hover {
+    background-color: #E7CBCC;
+}
