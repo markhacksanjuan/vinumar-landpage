@@ -1,6 +1,6 @@
 import { animateNavbar } from './functions.js'
 
-fetch('/src/html/navbar.html')
+fetch('./src/html/navbar.html')
     .then(response => {
         return response.text()
     })
@@ -8,7 +8,7 @@ fetch('/src/html/navbar.html')
         document.querySelector('navbar').innerHTML = data
         animateNavbar()
     })
-fetch('/src/html/footer.html')
+fetch('./src/html/footer.html')
     .then(response => {
         return response.text()
     })
