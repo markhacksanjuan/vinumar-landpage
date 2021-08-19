@@ -40,7 +40,8 @@
 }
 #beneficios {
     padding-top: 10px;
-    padding-bottom: 60px
+    padding-bottom: 60px;
+    font-size: 18px;
 }
 #beneficios > p {
     padding-left: 23px;
@@ -48,6 +49,9 @@
 #beneficios div {
     margin-left: 151px;
     width: 451px;
+}
+#beneficios ul {
+    margin-left: 50px
 }
 #productos {
  margin-bottom: 300px
@@ -97,7 +101,4 @@
 }
 .productos_card > div > ul li:last-child {
     border: none
-}
-.productos_card > div > div {
-    width: 430px;
 }

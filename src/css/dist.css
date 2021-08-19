@@ -44,8 +44,17 @@
 .width-105 {
     width: 105px;
 }
+.width-430 {
+    width: 430px
+}
+.width-335 {
+    width: 335px
+}
 
 /* HEIGHT */
 .height-40 {
     height: 40px;
+}
+.height-365 {
+    height: 365px;
 }
