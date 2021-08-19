@@ -199,10 +199,13 @@ textarea{
     font-weight: initial;
 }
 .bold {
-    font-weight: bold;
+    font-weight: bold !important;
 }
 .italic {
     font-style: italic;
+}
+.text-center {
+    text-align: center;
 }
 .block {
     display: block
