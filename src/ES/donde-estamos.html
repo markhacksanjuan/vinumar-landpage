@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/dist.css">
     <link rel="stylesheet" href="../css/buttons.css">
     <link rel="stylesheet" href="../css/flex.css">
+    <link rel="stylesheet" href="../css/slideshow.css">
     <title>Vinumar | Dónde estamos</title>
 </head>
 <body>
@@ -32,7 +33,19 @@
                     Varias décadas después, Vinumar forma parte del tejido económico de Castilla-La Mancha como una referencia mundial en el ámbito del tratamiento de la uva.
                 </p>
             </div>
-            <img src="../public/img/Situacion_Geografica_Carrusel_1.jpg" alt="">
+            <div class='slideshow-container'>
+                <div class='mySlides fade'>
+                    <img src="../public/img/Situacion_Geografica_Carrusel_1.jpg" alt="">
+                </div>
+                <div class='mySlides fade'>
+                    <img src="../public/img/Situacion_Geografica_Carrusel_2.jpg" alt="">
+                </div>
+                <div class='mySlides fade'>
+                    <img src="../public/img/Situacion_Geografica_Carrusel_3.jpg" alt="">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#x2C2;</a>
+                <a class="next" onclick="plusSlides(1)">&#x2C3;</a>
+            </div>
         </section>
         <section id="donde_estamos" class='border_top container column section padding-t-15 margin-b-200'>
             <div class='container row content-between margin-b-28'>
@@ -86,5 +99,6 @@
     <footer class='footer'></footer>
 
     <script src="../js/fetchOnFolder.js" type="module"></script>
+    <script src="../js/slideshow.js"></script>
 </body>
 </html>

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../../css/dist.css">
     <link rel="stylesheet" href="../../css/buttons.css">
     <link rel="stylesheet" href="../../css/flex.css">
+    <link rel="stylesheet" href="../../css/slideshow.css">
     <title>Vinumar | Productos | Alcoholes de uso de boca</title>
 </head>
 <body>
@@ -151,8 +152,22 @@
                     </p>
                 </div>
             </div>
-            <img src="../../public/img/Entorno_natural_Carrusel_2.jpg" alt="">
-            <button class='btn-white btn-w105'><a href="">Saber más</a></button>
+            <div class='slideshow-container'>
+                <div class='mySlides fade'>
+                    <img src="../../public/img/Entorno_natural_Carrusel_1.jpg" alt="">
+                    <button class='btn-white btn-w105'><a href="">Saber más</a></button>
+                </div>
+                <div class='mySlides fade'>
+                    <img src="../../public/img/Entorno_natural_Carrusel_2.jpg" alt="">
+                    <button class='btn-white btn-w105'><a href="">Saber más</a></button>
+                </div>
+                <div class='mySlides fade'>
+                    <img src="../../public/img/Entorno_natural_Carrusel_3.JPG" alt="">
+                    <button class='btn-white btn-w105'><a href="">Saber más</a></button>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#x2C2;</a>
+                <a class="next" onclick="plusSlides(1)">&#x2C3;</a>
+            </div>
 
         </section>
         
@@ -162,5 +177,6 @@
     <footer class='footer'></footer>
 
     <script src="../../js/fetchOnFolder2level.js" type="module"></script>
+    <script src="../../js/slideshow.js"></script>
 </body>
 </html>
