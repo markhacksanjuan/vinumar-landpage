@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../../css/dist.css">
     <link rel="stylesheet" href="../../css/buttons.css">
     <link rel="stylesheet" href="../../css/flex.css">
+    <link rel="stylesheet" href="../../css/slideshow.css">
     <title>Vinumar | Historia</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
 
     <header class='container content-center margin-b-300'>
         <h2 class='over-img bold width-923 text-center'>Vinumar: una empresa conducida a través de los valores</h2>
-        <img id='img_vinumar' src="../../public/img/DJI_0559.jpg" alt="vinumar">
+        <img id='img_vinumar' src="../../public/img/Historia_Foto_principal.jpg" alt="vinumar">
     </header>
     <div id="content" class='container column content-center'>
         <section id="colorantes" class='border_top container column section padding-t-15 margin-b-300'>
@@ -33,7 +34,19 @@
                     </p>
                 </div>
             </div>
-            <img src="../../public/img/DSC06843.jpg" alt="">
+            <div class='slideshow-container'>
+                <div class='mySlides fade'>
+                    <img src="../../public/img/Historia_Carrusel_1_1.jpg" alt="">
+                </div>
+                <div class='mySlides fade'>
+                    <img src="../../public/img/Historia_Carrusel_1_2.jpg" alt="">
+                </div>
+                <div class='mySlides fade'>
+                    <img src="../../public/img/Historia_Carrusel_1_3.jpg" alt="">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#x2C2;</a>
+                <a class="next" onclick="plusSlides(1)">&#x2C3;</a>
+            </div>
         </section>
         <section id="cronologia" class='border_top container column section padding-t-15 margin-b-280'>
             <div id='cronologia-head' class='container row content-between'>
@@ -158,7 +171,19 @@
                     el conocimiento de la importancia que tiene la tecnología y ubicar en el centro siempre a nuestros clientes.
                 </p>
             </div>
-            <img src="../../public/img/DSC06843.jpg" alt="">
+            <div class='slideshow-container'>
+                <div class='mySlides2 fade'>
+                    <img src="../../public/img/Historia_Carrusel_2_1.jpg" alt="">
+                </div>
+                <div class='mySlides2 fade'>
+                    <img src="../../public/img/Historia_Carrusel_2_2.jpg" alt="">
+                </div>
+                <div class='mySlides2 fade'>
+                    <img src="../../public/img/Historia_Carrusel_2_3.jpg" alt="">
+                </div>
+                <a class="prev" onclick="plusSlides2(-1)">&#x2C2;</a>
+                <a class="next" onclick="plusSlides2(1)">&#x2C3;</a>
+            </div>
             <button class='btn-red margin-t-60 btn-w105'>Contactar</button>
         </section>
     </div>
@@ -166,5 +191,6 @@
     <footer class='footer'></footer>
 
     <script src="../../js/fetchOnFolder2level.js" type="module"></script>
+    <script src="../../js/slideshow.js"></script>
 </body>
 </html>
