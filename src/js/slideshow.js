@@ -13,12 +13,14 @@ const showSlides = (n) => {
 }
 const showSlides2 = (n) => {
   const slides = document.getElementsByClassName('mySlides2')
-  if(n > slides.length) {slideIndex2 = 1}
-  if(n < 1) {slideIndex2 = slides.length}
-  for(i = 0; i < slides.length; i++){
-    slides[i].style.display = 'none'
+  if(slides.length !== 0){
+    if(n > slides.length) {slideIndex2 = 1}
+    if(n < 1) {slideIndex2 = slides.length}
+    for(i = 0; i < slides.length; i++){
+      slides[i].style.display = 'none'
+    }
+    slides[slideIndex2 - 1].style.display = 'block'
   }
-  slides[slideIndex2 - 1].style.display = 'block'
 }
 
 // Next/previous controls
